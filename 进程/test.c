@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <malloc.h>
 #include <unistd.h>
 
 int g_unval;
@@ -30,4 +31,5 @@ int main()
         printf("env addr: %p\n", envp[i]);
         i++;
     }
+    return 0;
 }
